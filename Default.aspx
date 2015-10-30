@@ -36,7 +36,11 @@
         <asp:Button ID="addAssetButton" runat="server" OnClick="addAssetButton_Click" Text="Add Asset" />
         <br />
         <br />
-        <asp:Label ID="resultLabel" runat="server"></asp:Label>
+        <asp:Label ID="AssetNameLabel" runat="server"></asp:Label>
+        <br />
+        <asp:Label ID="actsOfSubterfugeLabel" runat="server"></asp:Label>
+        <br />
+        <asp:Label ID="lastAssetAddedLabel" runat="server"></asp:Label>
         <br />
     
     </div>
